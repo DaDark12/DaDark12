@@ -1,6 +1,6 @@
-<svg width="900" height="220" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="250" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- 3D liquid glass gradient -->
+    <!-- Gradient for liquid glass -->
     <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#ff003c" stop-opacity="0.6"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0.3"/>
@@ -14,23 +14,37 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <!-- Particle style -->
+    <radialGradient id="particleGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff003c" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ff003c" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
-  <!-- Background box with rounded corners -->
-  <rect x="0" y="0" width="900" height="220" rx="25" ry="25"
+  <!-- Background particles -->
+  <circle cx="100" cy="50" r="6" fill="url(#particleGrad)">
+    <animate attributeName="cx" values="100;800;100" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="50;200;50" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="180" r="4" fill="url(#particleGrad)">
+    <animate attributeName="cx" values="700;200;700" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="180;60;180" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="120" r="3" fill="url(#particleGrad)">
+    <animate attributeName="cx" values="450;650;450" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="120;220;120" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Glass box -->
+  <rect x="0" y="0" width="900" height="250" rx="25" ry="25"
         fill="url(#glassGrad)" stroke="#ff003c" stroke-width="4" filter="url(#glow)"/>
 
-  <!-- Multi-line About Me text -->
-  <text x="50%" y="35" text-anchor="middle" fill="white" font-family="Orbitron" font-size="16">
-    Hey 👋 I'm Ali, and I'm a huge tech nerd.
-  </text>
-  <text x="50%" y="70" text-anchor="middle" fill="white" font-family="Orbitron" font-size="16">
-    Every project I make needs to look amazing, run smooth, and feel alive.
-  </text>
-  <text x="50%" y="105" text-anchor="middle" fill="white" font-family="Orbitron" font-size="16">
-    No lack in detail, no forgetting about things,
-  </text>
-  <text x="50%" y="140" text-anchor="middle" fill="white" font-family="Orbitron" font-size="16">
-    just amazing designs, concepts, coding and detail.
+  <!-- Multi-line About Me text with auto line breaks using <tspan> -->
+  <text x="50%" y="60" text-anchor="middle" fill="white" font-family="Orbitron" font-size="16">
+    <tspan x="50%" dy="1.2em">Hey 👋 I'm Ali, and I'm a huge tech nerd.</tspan>
+    <tspan x="50%" dy="1.4em">Every project I make needs to look amazing, run smooth, and feel alive.</tspan>
+    <tspan x="50%" dy="1.4em">No lack in detail, no forgetting about things,</tspan>
+    <tspan x="50%" dy="1.4em">just amazing designs, concepts, coding and detail.</tspan>
   </text>
 </svg>
