@@ -37,7 +37,7 @@
   </circle>
 
   <!-- Glass box -->
-  <rect x="0" y="0" width="900" height="250" rx="25" ry="25"
+  <rect x="0" y="0" width="900" height="250" rx="55" ry="55"
         fill="url(#glassGrad)" stroke="#ff003c" stroke-width="4" filter="url(#glow)"/>
 
   <!-- Multi-line About Me text with auto line breaks using <tspan> -->
