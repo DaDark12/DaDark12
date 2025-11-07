@@ -9,7 +9,7 @@
     </filter>
   </defs>
 
-  <rect x="0" y="0" width="900" height="150" rx="20" ry="20"
+  <rect x="0" y="0" width="900" height="150" rx="55" ry="55"
         fill="url(#highlightGrad)" stroke="#ff003c" stroke-width="3" filter="url(#highlightGlow)"/>
 
   <text x="50%" y="40%" text-anchor="middle" fill="#ff003c" font-family="Orbitron" font-size="24">
