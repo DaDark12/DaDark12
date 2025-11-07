@@ -1,50 +1,42 @@
-<!-- DaDark12 | Ali | GitHub Profile -->
-
 <div align="center">
 
-  <h1 style="font-family: 'Orbitron', sans-serif; font-weight: 700; color: #ff003c;">
-    A L I
-  </h1>
-
-  <img src="https://raw.githubusercontent.com/DaDark12/DaDark12/main/assets/preview.svg" width="100%" alt="Preview Animation"/>
+  <!-- Hero Banner -->
+  <img src="assets/preview.svg" width="100%" alt="Hero Banner"/>
 
 </div>
 
----
+<!-- About Me Box -->
+<p align="center">
+  <img src="assets/about-box.svg" width="80%" alt="About Box"/>
+</p>
 
-### About Me
-- Hey 👋 I'm **Ali**, and I'm a huge tech nerd.  
-- Every project I make needs to look amazing, run smooth, and feel alive.  
-- No lack in detail, no forgetting about things — just amazing designs, concepts, coding, and execution.  
+<!-- Glow Divider -->
+<p align="center">
+  <img src="assets/glow-divider.svg" width="90%" alt="Glow Divider"/>
+</p>
 
----
+<!-- Core Stack Box -->
+<p align="center">
+  <img src="assets/stack-box.svg" width="80%" alt="Core Stack Box"/>
+</p>
 
-### Core Stack
-- **Languages:** Python, HTML, CSS  
-- **Currently Learning:** JavaScript  
-- **Tools:** GitHub, ChatGPT, Gemini  
-- **OS:** macOS + Windows  
-- **Style:** Red + Black, Liquid Glass, 3D effects  
+<!-- Glow Divider -->
+<p align="center">
+  <img src="assets/glow-divider.svg" width="90%" alt="Glow Divider"/>
+</p>
 
----
+<!-- Highlights Box -->
+<p align="center">
+  <img src="assets/highlight-box.svg" width="80%" alt="Highlights Box"/>
+</p>
 
-### Highlights
-- Obsessed with UI perfection  
-- I design before I code  
-- Everything I build is meant to *feel alive*  
-- Detail > Everything  
-
----
-
-<div align="center">
+<!-- GitHub Stats -->
+<p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=DaDark12&show_icons=true&theme=radical&hide_border=true&bg_color=0D0D0D&title_color=ff003c&icon_color=ff003c" width="49%" alt="GitHub Stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=DaDark12&theme=radical&hide_border=true&background=0D0D0D&ring=ff003c&fire=ff003c&currStreakLabel=ff003c" width="49%" alt="GitHub Streak Stats"/>
-</div>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DaDark12&theme=radical&hide_border=true&background=0D0D0D&ring=ff003c&fire=ff003c&currStreakLabel=ff003c" width="49%" alt="GitHub Streak Stats"/>
+</p>
 
----
-
-<div align="center">
-
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=ff003c&height=100&section=footer&reversal=false"/>
-
-</div>
+<!-- Footer Wave -->
+<p align="center">
+  <img src="assets/footer-wave.svg" width="100%" alt="Footer Wave"/>
+</p>
