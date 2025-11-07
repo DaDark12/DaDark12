@@ -1,16 +1,38 @@
-## Hi there 👋
+# 👋 Hey, I'm Ali (aka DaDark12)
 
-<!--
-**DaDark12/DaDark12** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💡 Student | 🧠 AI Explorer | 🚀 Future Innovator  
 
-Here are some ideas to get you started:
+Welcome to my GitHub profile.  
+I’m all about tech, creativity, and pushing limits.  
+Learning new things every day and turning ideas into reality.  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## ⚡ About Me  
+- 🔭 Currently learning **Python**  
+- 🎯 Planning to learn **JavaScript** next  
+- 🧠 Passionate about AI, automation, and creative coding  
+- ❤️ Favorite colors: **Crimson + Black**  
+- 🔒 Everything I make is: **Safe, Reliable, Trustworthy**
+
+---
+
+## 🧰 Tools I Use
+![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/-ChatGPT-74AA9C?logo=openai&logoColor=white)
+![Gemini](https://img.shields.io/badge/-Gemini-4285F4?logo=google&logoColor=white)
+![AgentX](https://img.shields.io/badge/-AgentX-FF2D55?logo=apple&logoColor=white)
+
+---
+
+## 📊 My GitHub Stats
+![DaDark12's GitHub stats](https://github-readme-stats.vercel.app/api?username=DaDark12&show_icons=true&theme=tokyonight)
+
+---
+
+## 🏆 GitHub Trophies
+[![trophy](https://github-profile-trophy.vercel.app/?username=DaDark12&theme=tokyonight&margin-w=8)](https://github.com/ryo-ma/github-profile-trophy)
+
+---
+
+> *“Innovation starts when curiosity meets code.”*
