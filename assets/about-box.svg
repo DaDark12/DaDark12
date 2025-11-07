@@ -1,0 +1,9 @@
+<svg width="900" height="150" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="900" height="150" rx="20" ry="20" fill="black" stroke="#ff003c" stroke-width="4"/>
+  <text x="50%" y="35%" text-anchor="middle" fill="#ff003c" font-family="Orbitron" font-size="24">
+    About Me
+  </text>
+  <text x="50%" y="65%" text-anchor="middle" fill="white" font-family="Orbitron" font-size="16">
+    Hey, I'm Ali. Every project I make runs smooth and feels alive.
+  </text>
+</svg>
