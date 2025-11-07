@@ -15,16 +15,6 @@
   <img src="assets/glow-divider.svg" width="90%" alt="Glow Divider"/>
 </p>
 
-<!-- Core Stack Box -->
-<p align="center">
-  <img src="assets/stack-box.svg" width="80%" alt="Core Stack Box"/>
-</p>
-
-<!-- Glow Divider -->
-<p align="center">
-  <img src="assets/glow-divider.svg" width="90%" alt="Glow Divider"/>
-</p>
-
 <!-- Highlights Box -->
 <p align="center">
   <img src="assets/highlight-box.svg" width="80%" alt="Highlights Box"/>
