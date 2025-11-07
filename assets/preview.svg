@@ -22,8 +22,8 @@
     </radialGradient>
   </defs>
 
-  <!-- Transparent background -->
-  <rect width="1000" height="300" fill="transparent"/>
+  <!-- Dark background to match GitHub theme -->
+  <rect width="1000" height="300" fill="#0d1117"/>
 
   <!-- Floating particles -->
   <circle cx="100" cy="50" r="5" fill="url(#particleGrad)">
@@ -39,9 +39,9 @@
     <animate attributeName="cy" values="120;220;120" dur="6s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Hero Text using ORIGINAL font -->
+  <!-- Hero Text -->
   <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" fill="url(#textGrad)"
-        font-family="Audiowide, sans-serif" font-size="48" filter="url(#glow)">
+        font-family="Orbitron, sans-serif" font-size="48" filter="url(#glow)">
     A L I
   </text>
 </svg>
