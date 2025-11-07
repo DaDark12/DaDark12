@@ -1,67 +1,78 @@
-<!-- 💎 Ali - Crimson Liquid Glass Profile -->
+<!-- ⚙️ Ali - Professional Tech Portfolio README -->
 
 <div align="center" style="font-family: 'Segoe UI', sans-serif;">
 
 <h1 style="
-  font-size: 4em;
+  font-size: 3.8em;
   font-weight: 900;
-  background: linear-gradient(135deg, #ff1e56, #c71f37, #000000);
+  background: linear-gradient(135deg, #e0e0e0, #ffffff, #999999);
   background-size: 400% 400%;
   -webkit-background-clip: text;
   color: transparent;
   animation: gradientShift 8s ease infinite;
-  filter: drop-shadow(0 0 15px #c71f37aa);
+  filter: drop-shadow(0 0 12px #55555550);
 ">
 Ali
 </h1>
 
 <p style="
-  color: #ddd;
-  font-size: 1.25em;
+  color: #ccc;
+  font-size: 1.15em;
   font-style: italic;
-  text-shadow: 0 0 12px #c71f37aa;
+  text-shadow: 0 0 10px #22222250;
 ">
-Futuristic Developer • Tech Visionary • Detail-Obsessed Engineer
+Student • Developer • Designer
 </p>
 
-<hr style="width: 60%; border: none; height: 1px; background: linear-gradient(90deg, transparent, #ff1e56, transparent);"/>
+<hr style="width: 60%; border: none; height: 1px; background: linear-gradient(90deg, transparent, #888, transparent);"/>
 
 </div>
 
-### 🧠 About Me
-Hey 👋 I’m **Ali**, and I’m all about *futuristic precision*.  
-Every project I touch needs to **look perfect**, **run smooth**, and **feel alive**.  
-No shortcuts, no sloppy lines — just clean, efficient innovation.  
+---
 
-> “Perfection isn’t luck — it’s design.”
+### 🧠 About Me
+Hey 👋 I'm **Ali**, and I'm a huge tech nerd.  
+Every project I make needs to look amazing, run smooth, and feel alive.  
+No lack in detail, no forgetting about things — just amazing designs, concepts, coding, and detail.
+
+> “Design is how you communicate precision.”
 
 ---
 
 ### 🧩 My Core Stack
 <div align="center" style="
-  background: rgba(255,255,255,0.02);
+  background: rgba(255,255,255,0.03);
   border: 1px solid rgba(255,255,255,0.08);
   border-radius: 16px;
-  box-shadow: 0 0 20px #c71f3750;
-  padding: 20px;
-  backdrop-filter: blur(8px);
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  padding: 22px;
+  backdrop-filter: blur(10px);
   width: 80%;
   margin: auto;
 ">
 
-<p style="font-size:1.1em; color:#fff;">
-💻 <b>GitHub</b> • 💬 <b>ChatGPT</b> • 🌌 <b>Gemini</b>
-</p>
+<a href="https://github.com/" target="_blank" style="margin:0 18px;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50" height="50" alt="GitHub"/>
+</a>
+
+<a href="https://chat.openai.com" target="_blank" style="margin:0 18px;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openai/openai-original.svg" width="50" height="50" alt="ChatGPT"/>
+</a>
+
+<a href="https://gemini.google.com" target="_blank" style="margin:0 18px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Google_Gemini_logo.svg" width="50" height="50" alt="Gemini"/>
+</a>
+
 </div>
 
 ---
 
-### ⚙️ Stats & Analytics
+### ⚙️ GitHub Insights
 <div align="center" style="
   background: rgba(255,255,255,0.02);
   border: 1px solid rgba(255,255,255,0.08);
   border-radius: 16px;
-  box-shadow: 0 0 25px #ff1e5650;
+  box-shadow: 0 0 25px rgba(0,0,0,0.2);
   padding: 20px;
   backdrop-filter: blur(10px);
   width: 85%;
@@ -69,39 +80,38 @@ No shortcuts, no sloppy lines — just clean, efficient innovation.
 ">
 
 <p style="
-  color:#ff1e56;
+  color:#bbb;
   font-weight:bold;
-  text-shadow:0 0 15px #ff1e56aa;
+  text-shadow:0 0 10px #66666650;
   animation: pulse 3s ease-in-out infinite;
 ">
-🔹 GitHub Stats • Always Improving • Always Building
+Always learning • Always refining • Always building
 </p>
 
 </div>
 
 ---
 
-### 🪞 My Philosophy
+### 🪞 My Approach
 <div align="center" style="
   background: rgba(255,255,255,0.03);
   border: 1px solid rgba(255,255,255,0.08);
   border-radius: 16px;
   padding: 25px;
-  box-shadow: inset 0 0 20px #c71f3725;
+  box-shadow: inset 0 0 15px rgba(0,0,0,0.2);
   width: 80%;
   margin: auto;
   color:#eee;
   font-size:1.1em;
-  text-shadow:0 0 10px #c71f37aa;
+  text-shadow:0 0 10px #22222240;
 ">
-I don’t create just to build.<br>
-I create to **define the future**.
+Clean design, efficient code, and user-focused experiences.
 </div>
 
 ---
 
 <p align="center" style="color:#aaa; font-size:0.9em; margin-top:20px;">
-Built with precision by <b>Ali</b> • The Crimson Visionary
+Built by <b>Ali</b> — designed with precision and intent.
 </p>
 
 <style>
@@ -110,10 +120,9 @@ Built with precision by <b>Ali</b> • The Crimson Visionary
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
-
 @keyframes pulse {
-  0% { text-shadow: 0 0 10px #ff1e56aa; }
-  50% { text-shadow: 0 0 30px #ff1e56; }
-  100% { text-shadow: 0 0 10px #ff1e56aa; }
+  0% { opacity: 1; }
+  50% { opacity: 0.7; }
+  100% { opacity: 1; }
 }
 </style>
