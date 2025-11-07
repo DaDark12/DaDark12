@@ -1,0 +1,21 @@
+<svg width="900" height="150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="stackGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff003c" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="stackGlow">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="150" rx="20" ry="20"
+        fill="url(#stackGrad)" stroke="#ff003c" stroke-width="3" filter="url(#stackGlow)"/>
+
+  <text x="50%" y="40%" text-anchor="middle" fill="#ff003c" font-family="Orbitron" font-size="24">
+    Core Stack
+  </text>
+  <text x="50%" y="70%" text-anchor="middle" fill="white" font-family="Orbitron" font-size="16">
+    Learning Python | ChatGPT used for JS, HTML, CSS | GitHub, ChatGPT, Gemini
+  </text>
+</svg>
