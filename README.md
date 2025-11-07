@@ -1,57 +1,80 @@
-<div align="center">
-
-<!-- HERO BANNER - replace `assets/banner.gif` with your generated banner file -->
-<picture>
-  <source srcset="./assets/banner.webp" type="image/webp">
-  <img src="./assets/banner.gif" alt="DaDark12 — Innovating the Future" style="max-width:100%;border-radius:12px;box-shadow:0 10px 40px rgba(0,0,0,0.7)"/>
-</picture>
-
-# ⚡️ **DaDark12** — Ali
-### 💡 Student | 🧠 AI Explorer | 🚀 Future Innovator
-
----
-
-> **Innovation starts when curiosity meets code.**  
-> Precision at every pixel. Execution at every commit.
-
----
+<!-- 🌌 Crimson Liquid Glass README by Ali -->
 
 <div align="center">
-
-### 🔥 About Me
-- 🔭 Currently learning **Python**  
-- 🎯 Next: **JavaScript**  
-- 🧠 Focus: AI • Automation • Creative Tech  
-- 🛡 My rules: **Safe • Reliable • Trustworthy**
-
+  <h1 style="
+      font-size: 4em;
+      font-weight: 900;
+      background: linear-gradient(120deg, #ff1e56, #a80000, #000000);
+      -webkit-background-clip: text;
+      color: transparent;
+      text-shadow: 0 0 20px #ff1e56, 0 0 40px #a80000, 0 0 80px #000000;
+      filter: drop-shadow(0 0 10px crimson);
+  ">
+    Ali
+  </h1>
+  <p style="
+      font-size: 1.2em;
+      color: #ccc;
+      font-style: italic;
+      text-shadow: 0 0 10px #c71f37;
+  ">
+    ⚡ Futuristic Developer | Tech Innovator | Detail Enthusiast
+  </p>
 </div>
 
 ---
 
-## ⚙️ Tools I Use
+### 🧩 About Me
+Hey there 👋 — I’m **Ali**, a tech-loving creator who’s all about perfect design, reliable code,  
+and that clean futuristic *liquid glass energy*.  
+I build things with precision, passion, and a little crimson flair 🔥
+
+---
+
+### 🛠 Tools I Use
 <p align="center">
-  <img src="https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white" alt="GitHub"/>
-  <img src="https://img.shields.io/badge/-ChatGPT-74AA9C?logo=openai&logoColor=white" alt="ChatGPT"/>
-  <img src="https://img.shields.io/badge/-Gemini-4285F4?logo=google&logoColor=white" alt="Gemini"/>
-  <img src="https://img.shields.io/badge/-AgentX-FF2D55?logo=apple&logoColor=white" alt="AgentX"/>
+  <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/ChatGPT-C71F37?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gemini-000000?style=for-the-badge&logo=google&logoColor=white" />
 </p>
 
 ---
 
-## 📊 Profile Metrics
+### ⚙️ My GitHub Analytics
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DaDark12&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=DaDark12&show_icons=true&bg_color=000000&title_color=ff1e56&text_color=ffffff&icon_color=ff1e56&hide_border=true&border_radius=15" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=DaDark12&theme=dark&background=000000&ring=ff1e56&fire=ff1e56&currStreakLabel=ffffff&hide_border=true&border_radius=15" width="48%" />
 </p>
 
 ---
 
-## 🏆 Trophies
+### 🏆 Achievements
 <p align="center">
-  [![trophy](https://github-profile-trophy.vercel.app/?username=DaDark12&theme=darkhub&margin-w=8&no-bg=true&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
+  <img src="https://github-profile-trophy.vercel.app/?username=DaDark12&theme=onestar&no-frame=true&no-bg=true&column=5&margin-w=15&margin-h=15" />
 </p>
 
 ---
 
-<p align="center" style="opacity:0.8">Built with precision by **DaDark12** — where every detail matters.</p>
+### 🌀 Visual Aesthetic (Liquid Effect)
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=ff1e56&section=header&reversal=false" width="100%" />
+</div>
 
+---
+
+### 💬 Philosophy  
+> “Perfection isn’t a goal — it’s the standard.”
+
+---
+
+<p align="center" style="font-size:0.9em; color:#999;">
+  ✦ Designed and coded with precision by <b>Ali</b> ✦  
+  <br>
+  <i>Crimson energy. Liquid motion. Infinite innovation.</i>
+</p>
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=000000&section=footer&reversal=true" width="100%" />
 </div>
