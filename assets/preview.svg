@@ -1,41 +1,47 @@
-<svg width="1200" height="300" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="300" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Gradient for glass-text effect -->
-    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ff003c" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.2"/>
+    <!-- Gradient for liquid-glass text -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff003c" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.7"/>
     </linearGradient>
 
-    <!-- Glow effect -->
+    <!-- Glow filter -->
     <filter id="glow">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feGaussianBlur stdDeviation="6"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <!-- Particle gradient -->
+    <radialGradient id="particleGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff003c" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ff003c" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
-  <!-- Background rectangle -->
-  <rect width="1200" height="300" fill="black"/>
+  <!-- Transparent background -->
+  <rect width="1000" height="300" fill="transparent"/>
 
-  <!-- Glass text -->
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
-        font-family="Orbitron" font-size="72" fill="url(#glassGrad)" filter="url(#glow)">
+  <!-- Floating particles -->
+  <circle cx="100" cy="50" r="5" fill="url(#particleGrad)">
+    <animate attributeName="cx" values="100;900;100" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="50;250;50" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="800" cy="180" r="4" fill="url(#particleGrad)">
+    <animate attributeName="cx" values="800;200;800" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="180;50;180" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="500" cy="120" r="3" fill="url(#particleGrad)">
+    <animate attributeName="cx" values="500;750;500" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="120;220;120" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Hero Text using ORIGINAL font -->
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" fill="url(#textGrad)"
+        font-family="Audiowide, sans-serif" font-size="48" filter="url(#glow)">
     A L I
   </text>
-
-  <!-- Particles -->
-  <circle cx="200" cy="100" r="4" fill="#ff003c">
-    <animate attributeName="cy" values="100;250;100" dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="cx" values="200;800;200" dur="8s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="1000" cy="200" r="3" fill="#ff003c">
-    <animate attributeName="cy" values="200;50;200" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="cx" values="1000;300;1000" dur="7s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="600" cy="150" r="2" fill="#ff003c">
-    <animate attributeName="cy" values="150;270;150" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="cx" values="600;900;600" dur="6s" repeatCount="indefinite"/>
-  </circle>
 </svg>
