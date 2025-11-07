@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="200">
-  <defs>
-    <linearGradient id="liquid" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="rgba(255,0,0,0.3)">
-        <animate attributeName="offset" values="0;1;0" dur="8s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="rgba(0,0,0,0.8)">
-        <animate attributeName="offset" values="1;0;1" dur="8s" repeatCount="indefinite"/>
-      </stop>
-    </linearGradient>
-  </defs>
-  <rect width="100%" height="200" rx="20" ry="20" fill="url(#liquid)" stroke="#ff0000" stroke-opacity="0.4" />
-</svg>
+
