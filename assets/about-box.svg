@@ -1,10 +1,29 @@
-<svg width="900" height="150" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0" y="0" width="900" height="150" rx="20" ry="20"
-        fill="black" fill-opacity="0.7" stroke="#ff003c" stroke-width="4"/>
-  <text x="50%" y="40%" text-anchor="middle" fill="#ff003c" font-family="Orbitron" font-size="24">
-    About Me
-  </text>
-  <text x="50%" y="70%" text-anchor="middle" fill="white" font-family="Orbitron" font-size="16">
-    Hey, I'm Ali. Every project I make runs smooth and feels alive.
+<svg width="900" height="220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 3D liquid glass gradient -->
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff003c" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <!-- Glow + shadow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background box with rounded corners -->
+  <rect x="0" y="0" width="900" height="220" rx="25" ry="25"
+        fill="url(#glassGrad)" stroke="#ff003c" stroke-width="4" filter="url(#glow)"/>
+
+  <!-- About Me text -->
+  <text x="50%" y="50%" text-anchor="middle" fill="white" font-family="Orbitron" font-size="16" dominant-baseline="middle">
+    Hey 👋 I'm Ali, and I'm a huge tech nerd. Every project I make needs to look amazing,
+    run smooth, and feel alive. No lack in detail, no forgetting about things, just
+    amazing designs, concepts, coding and detail.
   </text>
 </svg>
