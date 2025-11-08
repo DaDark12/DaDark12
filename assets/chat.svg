@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" aria-label="Chat bubbles: Hey, I'm Ali">
+  <style>
+    .txt { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial; fill: white; font-weight: 600; font-size: 14px; line-height: 1.3; }
+    .small { font-size: 13px; font-weight: 500; }
+    .muted { opacity: 0.95; font-weight: 500; font-size: 13px; }
+    .bubble { filter: url(#bshadow); }
+    .grad { fill: url(#crimgrad); }
+    @keyframes floatIn {
+      0% { transform: translateY(12px) scale(0.996); opacity: 0; }
+      60% { transform: translateY(-4px) scale(1.002); opacity: 1; }
+      100% { transform: translateY(0) scale(1); opacity: 1; }
+    }
+    .a1 { animation: floatIn 750ms cubic-bezier(.22,.9,.35,1) 100ms both; transform-origin: center; }
+    .a2 { animation: floatIn 750ms cubic-bezier(.22,.9,.35,1) 220ms both; transform-origin: center; }
+    .a3 { animation: floatIn 750ms cubic-bezier(.22,.9,.35,1) 340ms both; transform-origin: center; }
+    .a4 { animation: floatIn 750ms cubic-bezier(.22,.9,.35,1) 460ms both; transform-origin: center; }
+    .bubble:hover { transform: translateY(-2px); transition: transform .18s ease; }
+  </style>
+
+  <defs>
+    <linearGradient id="crimgrad" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ff394b" stop-opacity="0.98"/>
+      <stop offset="60%" stop-color="#c1122b" stop-opacity="0.98"/>
+      <stop offset="100%" stop-color="#9b0e22" stop-opacity="0.98"/>
+    </linearGradient>
+    <filter id="bshadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="none"/>
+
+  <!-- BUBBLE 1 -->
+  <g class="bubble a1" transform="translate(406,28)">
+    <rect class="grad" x="0" y="0" rx="18" ry="18" width="290" height="54"/>
+    <text class="txt" x="18" y="18" xml:space="preserve">
+      <tspan x="18" y="32">Hey, I'm Ali 👋</tspan>
+    </text>
+  </g>
+
+  <!-- BUBBLE 2 -->
+  <g class="bubble a2" transform="translate(336,100)">
+    <rect class="grad" x="0" y="0" rx="18" ry="18" width="360" height="54"/>
+    <text class="txt" x="18" y="18" xml:space="preserve">
+      <tspan x="18" y="32">Huge Tech Nerd and AI Specialist</tspan>
+    </text>
+  </g>
+
+  <!-- BUBBLE 3 -->
+  <g class="bubble a3" transform="translate(74,172)">
+    <rect class="grad" x="0" y="0" rx="20" ry="20" width="580" height="84"/>
+    <text class="txt" x="18" y="20" xml:space="preserve">
+      <tspan x="18" y="36">Always experimenting with new things, such as softwares,</tspan>
+      <tspan x="18" y="58">websites, technology, code, and AI</tspan>
+    </text>
+  </g>
+
+  <!-- BUBBLE 4 -->
+  <g class="bubble a4" transform="translate(92,270)">
+    <rect class="grad" x="0" y="0" rx="20" ry="20" width="540" height="84"/>
+    <text class="muted" x="18" y="24" xml:space="preserve">
+      <tspan x="18" y="40">Please follow and enjoy my projects, feel free to comment</tspan>
+      <tspan x="18" y="62">if you want to help improve them</tspan>
+    </text>
+  </g>
+</svg>
