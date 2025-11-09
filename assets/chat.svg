@@ -52,7 +52,7 @@
   <g opacity="0">
     <rect x="420" y="100" width="280" height="50" rx="18" ry="18" fill="#34C759"/>
     <text x="434" y="125" class="txt">
-      Huge Tech Nerd<br/>and AI Specialist
+      Huge Tech Nerd<br/> and AI Specialist
     </text>
     <animate attributeName="opacity" from="0" to="1" begin="4.8s" dur="0.3s" fill="freeze"/>
   </g>
