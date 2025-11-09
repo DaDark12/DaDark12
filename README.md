@@ -1,7 +1,7 @@
 # 👋 Hey, I'm Ali!
 
 <!-- Inline SVG chat animation -->
-![Chat Intro](chat.svg)
+<img src="assets/chat.svg" width="720" alt="Chat Intro">
 
 **Huge Tech Nerd and AI Specialist**  
 
@@ -21,7 +21,7 @@ Here are some of the things I’m working on:
 ## 📬 Connect
 Feel free to follow, star, or contribute! I love feedback and collaboration.  
 
-- GitHub: [@LordAli](https://github.com/LordAli)  
+- GitHub: [@DaDark12](https://github.com/DaDark12)  
 - YouTube: [ProdigyPro153](https://www.youtube.com/@ProdigyPro153)  
 
 ---
