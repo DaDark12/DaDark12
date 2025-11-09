@@ -10,23 +10,31 @@
   </style>
 
   <!-- Message 1 typing -->
-  <circle cx="40" cy="40" r="4" fill="#6b6b6b">
-    <animateTransform attributeName="transform" type="translate"
-      dur="1s" values="0 0;0 -4;0 0" repeatCount="indefinite" />
-  </circle>
+  <g>
+    <circle cx="40" cy="40" r="4" fill="#6b6b6b">
+      <animateTransform attributeName="transform" type="translate"
+        dur="1s" values="0 0;0 -4;0 0" repeatCount="indefinite" />
+      <animate attributeName="opacity" from="0" to="1" begin="0s" dur="0.3s" fill="freeze"/>
+      <animate attributeName="opacity" from="1" to="0" begin="1s" dur="0.3s" fill="freeze"/>
+    </circle>
+  </g>
 
   <!-- Message 1 bubble -->
   <g opacity="0">
     <rect x="20" y="20" width="260" height="50" rx="18" ry="18" fill="#007AFF"/>
     <text x="34" y="50" class="txt">Hey, I'm Ali 👋</text>
-    <animate attributeName="opacity" from="0" to="1" begin="1s" dur="0.3s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.3s" fill="freeze"/>
   </g>
 
   <!-- Message 2 typing -->
-  <circle cx="640" cy="120" r="4" fill="#6b6b6b">
-    <animateTransform attributeName="transform" type="translate"
-      dur="1s" values="0 0;0 -4;0 0" repeatCount="indefinite" begin="2s" />
-  </circle>
+  <g>
+    <circle cx="640" cy="120" r="4" fill="#6b6b6b">
+      <animateTransform attributeName="transform" type="translate"
+        dur="1s" values="0 0;0 -4;0 0" repeatCount="indefinite" begin="2.5s" />
+      <animate attributeName="opacity" from="0" to="1" begin="2.5s" dur="0.3s" fill="freeze"/>
+      <animate attributeName="opacity" from="1" to="0" begin="3.5s" dur="0.3s" fill="freeze"/>
+    </circle>
+  </g>
 
   <!-- Message 2 bubble -->
   <g opacity="0">
@@ -34,14 +42,18 @@
     <text x="434" y="125" class="txt">
       Huge Tech Nerd<br/>and AI Specialist
     </text>
-    <animate attributeName="opacity" from="0" to="1" begin="3s" dur="0.3s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" begin="3.8s" dur="0.3s" fill="freeze"/>
   </g>
 
   <!-- Message 3 typing -->
-  <circle cx="40" cy="200" r="4" fill="#6b6b6b">
-    <animateTransform attributeName="transform" type="translate"
-      dur="1s" values="0 0;0 -4;0 0" repeatCount="indefinite" begin="4.5s" />
-  </circle>
+  <g>
+    <circle cx="40" cy="200" r="4" fill="#6b6b6b">
+      <animateTransform attributeName="transform" type="translate"
+        dur="1s" values="0 0;0 -4;0 0" repeatCount="indefinite" begin="5.5s" />
+      <animate attributeName="opacity" from="0" to="1" begin="5.5s" dur="0.3s" fill="freeze"/>
+      <animate attributeName="opacity" from="1" to="0" begin="6.5s" dur="0.3s" fill="freeze"/>
+    </circle>
+  </g>
 
   <!-- Message 3 bubble -->
   <g opacity="0">
@@ -49,14 +61,18 @@
     <text x="34" y="210" class="txt">
       Always experimenting with new things —<br/>software, websites, technology, code, and AI
     </text>
-    <animate attributeName="opacity" from="0" to="1" begin="5.5s" dur="0.3s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" begin="6.8s" dur="0.3s" fill="freeze"/>
   </g>
 
   <!-- Message 4 typing -->
-  <circle cx="640" cy="300" r="4" fill="#6b6b6b">
-    <animateTransform attributeName="transform" type="translate"
-      dur="1s" values="0 0;0 -4;0 0" repeatCount="indefinite" begin="7s" />
-  </circle>
+  <g>
+    <circle cx="640" cy="300" r="4" fill="#6b6b6b">
+      <animateTransform attributeName="transform" type="translate"
+        dur="1s" values="0 0;0 -4;0 0" repeatCount="indefinite" begin="8.5s" />
+      <animate attributeName="opacity" from="0" to="1" begin="8.5s" dur="0.3s" fill="freeze"/>
+      <animate attributeName="opacity" from="1" to="0" begin="9.5s" dur="0.3s" fill="freeze"/>
+    </circle>
+  </g>
 
   <!-- Message 4 bubble -->
   <g opacity="0">
@@ -64,6 +80,6 @@
     <text x="394" y="310" class="txt">
       Please follow and enjoy my projects —<br/>feel free to comment if you want to help improve them!
     </text>
-    <animate attributeName="opacity" from="0" to="1" begin="8s" dur="0.3s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" begin="9.8s" dur="0.3s" fill="freeze"/>
   </g>
 </svg>
