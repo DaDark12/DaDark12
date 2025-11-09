@@ -80,8 +80,8 @@
   <g opacity="0">
     <rect x="20" y="180" width="600" height="60" rx="18" ry="18" fill="#007AFF"/>
     <text x="34" y="210" class="txt">
-      Always experimenting with new things —<br/>software, websites, technology, code, 
-      and AI
+      Always experimenting with new things —<br/>software, 
+      websites, technology, code, and AI
     </text>
     <animate attributeName="opacity" from="0" to="1" begin="7.8s" dur="0.3s" fill="freeze"/>
   </g>
